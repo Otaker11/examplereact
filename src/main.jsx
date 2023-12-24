@@ -5,14 +5,6 @@ import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-const Button = ({text}) => {
-  return(
-    <button>
-    {text}
-    </button>
-  )
-}
-
 root.render(
     <App></App>
 )
